@@ -1,0 +1,231 @@
+-------------------------------------Events Table Information---------------------------------------
+
+(1, 1, 25, 'New year parade', Decimal('16.0000'), 'new year ', 'www.newyear.com') 
+
+(3, 4, 27, 'herb', Decimal('40.0000'), 'health and pill', 'www.herb.com') 
+
+(4, 5, 28, 'valentine journey', Decimal('2000.0000'), 'romantic', 'www.couple.com') 
+
+(6, 6, 25, 'elder people', Decimal('300.0000'), 'elder people', 'www.randytour.com') 
+
+(8, 8, 27, 'Lagend show', Decimal('230.0000'), 'carnival parade', 'www.funevt.com') 
+
+(9, 9, 28, 'fantasy', Decimal('450.0000'), 'saint patrick', 'www.alvevent.com') 
+
+(10, 10, 25, 'peter pan', Decimal('25.0000'), 'children', 'www.lovevoc.com') 
+
+(11, 11, 26, 'dac', Decimal('100.0000'), 'game', 'www.game.com') 
+
+-------------------------------------------Address Table--------------------------------------------
+
+(1, 'Business', '110 park drive', 'boston', 2, 2115)
+
+(2, 'Business', '111 park drive', 'boston', 2, 2114)
+
+(5, 'Business', '103 fenway park', 'boston', 2, 21158)
+
+(6, 'Business', '112 back bay', 'boston', 2, 11587)
+
+(7, 'Residential', '971 flagstaff', 'las vegas', 4, 11589)
+
+(8, 'Residential', '1020 green hill', 'las vegas', 4, 8596)
+
+(10, 'Business', 'Blue village 116', 'Shanghai', 10, 589)
+
+(11, 'Business', 'West land 123', 'Seol', 11, 4598)
+
+(12, 'Business', 'longwood 9801', 'Seol', 11, 7854)
+
+(19, 'Business', '3 Parker Hill', 'Las Vegas', 4, 56346)
+
+(20, 'Business', '78 Rocksbury St', 'Seattle', 4, 8970)
+
+(21, 'Business', '678 Blue Hill', 'Cambridge', 9, 67345)
+
+(23, 'Business', '5 Goan High', 'Tokyo', 5, 34907)
+
+(24, 'Business', '678 Tall Hill', 'TwinCity', 3, 45890)
+
+(25, 'Business', 'East Village 23', 'Portland', 7, 78567)
+
+(26, 'Business', '123 BackBay', 'DC', 8, 45367)
+
+(27, 'Business', '7 Pali Hill', 'Twin City', 3, 45267)
+
+(28, 'Business', '67 East bandra', 'Tokyo', 5, 12356)
+
+(29, 'Business', '5th Avenue', 'Seattle', 6, 8456)
+
+(30, 'Business', '12th Avenue', 'Portland', 7, 34789)
+
+(31, 'Business', '8 Greater Park', 'DC', 8, 67349)
+
+(32, 'Business', '7 Central Park', 'Seol', 11, 67345)
+
+(33, 'Business', '65 East Village', 'Cambridge', 9, 89345)
+
+--------------------------------------------Bookings Table--------------------------------------------
+
+(3, 4, datetime.datetime(2012, 1, 13, 0, 0), 5, None, 1, Decimal('89.0000'), Decimal('445.0000'), datetime.datetime(2012, 1, 3, 0, 0), 3)
+
+(4, 3, datetime.datetime(2012, 6, 7, 0, 0), 12, 4, 3, Decimal('50.0000'), Decimal('600.0000'), datetime.datetime(2012, 6, 7, 0, 0), None)
+
+(6, 6, datetime.datetime(2014, 5, 20, 0, 0), 4, None, 1, Decimal('86.0000'), Decimal('144.0000'), datetime.datetime(2014, 5, 20, 0, 0), 4)
+
+(8, 9, datetime.datetime(2015, 7, 15, 0, 0), 15, 8, 3, Decimal('1000.0000'), Decimal('1500.0000'), datetime.datetime(2015, 7, 15, 0, 0), None)
+
+(9, 10, datetime.datetime(2016, 1, 1, 0, 0), 7, 9, 3, Decimal('75.0000'), Decimal('515.0000'), datetime.datetime(2016, 1, 1, 0, 0), None)
+
+(10, 11, datetime.datetime(2016, 7, 3, 0, 0), 5, 10, 3, Decimal('50.0000'), Decimal('250.0000'), datetime.datetime(2016, 1, 1, 0, 0), None)
+
+(11, 4, datetime.datetime(2016, 12, 13, 0, 0), 4, 11, 3, Decimal('160.0000'), Decimal('640.0000'), datetime.datetime(2016, 12, 13, 0, 0), None)
+
+(13, 3, datetime.datetime(2015, 10, 15, 0, 0), 2, None, 2, Decimal('100.0000'), Decimal('200.0000'), datetime.datetime(2016, 12, 13, 0, 0), None)
+
+(14, 2, datetime.datetime(2012, 9, 10, 0, 0), 1, None, 2, Decimal('100.0000'), Decimal('100.0000'), datetime.datetime(2016, 12, 13, 0, 0), None)
+
+(15, 5, datetime.datetime(2011, 2, 23, 0, 0), 1, None, 2, Decimal('60.0000'), Decimal('60.0000'), datetime.datetime(2016, 12, 13, 0, 0), None)
+
+(16, 7, datetime.datetime(2013, 1, 23, 0, 0), 5, None, 2, Decimal('350.0000'), Decimal('1750.0000'), datetime.datetime(2016, 12, 13, 0, 0), None)
+
+(17, 10, datetime.datetime(2016, 11, 17, 0, 0), 3, None, 2, Decimal('60.0000'), Decimal('180.0000'), datetime.datetime(2016, 12, 13, 0, 0), None)
+
+(18, 9, datetime.datetime(2016, 10, 15, 0, 0), 4, None, 2, Decimal('35.0000'), Decimal('140.0000'), datetime.datetime(2016, 12, 13, 0, 0), None)
+
+-------------------------------------------Booking Type Table-------------------------------------------
+
+(1, 'Resort Booking')
+
+(2, 'hotel booking')
+
+(3, 'event booking')
+
+(4, 'travel booking')
+
+(5, 'advanced booking')
+
+(6, 'hybrid booking')
+
+-------------------------------------------Cities Table------------------------------------------------- 
+
+(1, 'New York', 'NY', 'United State')
+
+(2, 'boston', 'MA', 'United State')
+
+(3, 'twin city', 'WA', 'United State')
+
+(4, 'las vegas', 'NEA', 'United State')
+
+(5, 'tokyo', 'TKO', 'United State')
+
+(6, 'seattle', 'WA', 'United State')
+
+(7, 'portland', 'NH', 'United State')
+
+(8, 'DC', 'DC', 'United State')
+
+(9, 'cambridge', 'LONDON', 'United Kindom')
+
+(10, 'shanghai', 'SH', 'China')
+
+(11, 'seol', 'INCHEONG', 'South Korea')
+
+---------------------------------------Customer Address Table--------------------------------------------
+(2, 2)
+
+(5, 5)
+
+(6, 6)
+
+(7, 7)
+
+(8, 8)
+
+(10, 10)
+
+(11, 11)
+
+-----------------------------------------Event Organizer Table--------------------------------------------
+(1, 21, 'Alvon', '8265123484', 'festival event', 'www.alvevent.com')
+
+(4, 23, 'Mitkou', '2971123446', 'carnival ', 'www.funevt.com')
+
+(5, 24, 'Yolanda', '9814456114', 'parade', 'www.yoforvoa.com')
+
+(6, 21, 'Randy', '9880146778', 'elder people', 'www.randytour.com')
+
+(8, 23, 'Okinawa', '1229771355', 'couple', 'www.couple.com')
+
+(9, 24, 'Walmart', '1389913460', 'shopping tour', 'www.letsbuy.com')
+
+(10, 21, 'Peter', '5421333333', 'duty free ', 'www.petetravel.com')
+
+(11, 23, 'Herb', '3662113111', 'clinic', 'www.herb.com')
+
+---------------------------------------------Event Schedule Table-------------------------------------------
+(3, 4)
+
+(4, 5)
+
+(6, 6)
+
+(8, 8)
+
+(9, 9)
+
+(10, 10)
+
+(11, 11)
+
+--------------------------------------------------Hotels table------------------------------------------------
+(1, 6, 29, 'mirage', '3282655667', 'free wifi')
+
+(2, 7, 30, 'linQ', '7899444572', 'five star ')
+
+(3, 8, 31, 'treasure island', '6796945635', 'comfort ')
+
+(4, 11, 32, 'circus resort', '4337992376', 'casino ')
+
+(5, 9, 33, 'golden nugget', '2679647457', 'show')
+
+(6, 6, 29, 'trump international', '3254699580', 'four star')
+
+(7, 7, 30, 'rio casino', '1246899927', 'casino')
+
+(8, 8, 31, 'plaza hotel', '6468232210', 'buffet')
+
+(9, 11, 32, 'wynn las vegas', '2339572015', 'fountain')
+
+(10, 9, 33, 'renaissance ', '1554219489', 'landscape')
+
+(11, 6, 29, 'THE D', '9854124321', 'show')
+
+------------------------------------------------Orders Table--------------------------------------------------
+(6, datetime.datetime(2014, 11, 12, 0, 0), 7, Decimal('700.0000'), Decimal('490.0000'), 6, 6, 6, datetime.datetime(2014, 11, 12, 0, 0))
+
+(10, datetime.datetime(2016, 6, 19, 0, 0), 4, Decimal('4000.0000'), Decimal('17600.0000'), 3, 3, 10, datetime.datetime(2016, 6, 19, 0, 0))
+
+(11, datetime.datetime(2016, 7, 19, 0, 0), 1, Decimal('390.0000'), Decimal('390.0000'), 4, 4, 11, datetime.datetime(2016, 7, 19, 0, 0))
+
+---------------------------------------------Payment Method Table---------------------------------------------
+(1, 'visa')
+
+(2, 'cash')
+
+(3, 'paypal')
+
+(4, 'master card')
+
+(5, 'check')
+
+(6, 'debit card')
+
+(7, 'gift card')
+
+(8, 'online')
+
+(9, 'student card')
+
+(10, 'other')
+
+(11, 'employee')
